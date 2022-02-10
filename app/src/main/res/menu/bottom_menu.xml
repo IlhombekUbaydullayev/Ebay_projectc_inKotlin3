@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:color="#FFFFFF"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:title="Chats"
+        />
+    <item
+        android:id="@+id/setting_item"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:color="#FFFFFF"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:title="My eBay"
+        />
+    <item
+        android:id="@+id/search_item"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:color="#FFFFFF"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:title="Search"
+        />
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        android:color="#FFFFFF"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:title="Notifications"
+        />
+    <item
+        android:id="@+id/selling"
+        android:icon="@drawable/ic_baseline_sell_24"
+        android:color="#FFFFFF"
+        android:tint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:title="Selling"
+        />
+</menu>

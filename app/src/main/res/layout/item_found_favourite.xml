@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_marginLeft="5dp"
+    android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/edittext_rounded_corners_border4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/product1"/>
+        </LinearLayout>
+    <TextView
+        android:id="@+id/iv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bose QuetComfort"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/iv_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earbuds"
+        android:textColor="#fff"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/iv_title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$199.00"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/iv_title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$279.00 , 29% OFF"
+        android:textColor="#fff"
+        android:textSize="13sp"/>
+
+
+
+</LinearLayout>
